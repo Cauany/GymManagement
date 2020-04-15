@@ -4,7 +4,7 @@ const nunjucks = require('nunjucks')
 const routes = require('./routes')
 const server = express()
 
-//Use middlewares
+//Using middlewares
 server.use(express.static('public'))
 server.use(routes)
 
