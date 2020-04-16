@@ -5,6 +5,7 @@ const routes = require('./routes')
 const server = express()
 
 //Using middlewares
+server.use(express.urlencoded({ extended: true})) // For req.body
 server.use(express.static('public'))
 server.use(routes)
 
