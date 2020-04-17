@@ -20,6 +20,10 @@ routes.get('/members', function(req, res){
     return res.send("members")
 })
 
+routes.get('/instructors/:id', instructors.show)
+
+routes.get('/instructors/:id/edit', instructors.edit)
+
 routes.post('/instructors', instructors.post)
 
 //Exports Routes

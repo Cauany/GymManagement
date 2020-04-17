@@ -2,6 +2,8 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
 const routes = require('./routes')
+
+//Others const
 const server = express()
 
 //Using middlewares
