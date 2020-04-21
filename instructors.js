@@ -8,11 +8,13 @@ exports.show = function(req, res){
     //req.params
     const { id } = req.params
 
-    const foundInstructor = data.instructors.find(function(instructor){
+    const foundInstructor = data.instructors.find(
+        function(instructor){
         return instructor.id == id
     })
 
-    if (!foundInstructor) return  res.send("Instructor not found!")
+    if (!foundInstructor) 
+    return  res.send("Instructor not found!")
 
     const instructor = {
         ...foundInstructor,
@@ -69,9 +71,12 @@ exports.edit = function(req, res){
  
      if (!foundInstructor) return  res.send("Instructor not found!")
 
-     date(foundInstructor.birth)
+     const instructor = {
+         ...foundInstructor,
+         birth: date(foundInstructor.birth)
+     }
     
-    return res.render('instructors/edit', { instructor: foundInstructor})
+    return res.render('instructors/edit', { instructor })
 }
 
 //delete
