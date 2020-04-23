@@ -1,9 +1,43 @@
 {
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/random/4057576",
+      "name": "CAUANY SOUZA ",
+      "email": "caus161999@gmail.com",
+      "birth": 944611200000,
+      "gender": "F",
+      "blood": "A1",
+      "weight": "65",
+      "height": "163"
+    },
+    { "id": 2,
+      "avatar_url": "https://source.unsplash.com/random/4057576",
+      "name": "CAUANY SOUZA ",
+      "email": "caus161999@gmail.com",
+      "birth": 944611200000,
+      "gender": "F",
+      "blood": "A1",
+      "weight": "65",
+      "height": "163"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://source.unsplash.com/random/4057576",
+      "name": "Cicera Maria de Souza",
+      "email": "caus161999@gmail.com",
+      "birth": 1587600000000,
+      "gender": "F",
+      "blood": "A7",
+      "weight": "74",
+      "height": "155"
+    }
+  ],
   "instructors": [
     {
-      "id": "1",
+      "id": 1,
       "avatar_url": "https://source.unsplash.com/random/4057576",
-      "name": "Lee Jong-Suk ",
+      "name": "Lee Jong-Suk  to love of the my life",
       "birth": 621734400000,
       "gender": "M",
       "services": "musculação, crosfit, natação",
