@@ -1,12 +1,12 @@
 {
   "instructors": [
     {
-      "id": 1,
+      "id": "1",
       "avatar_url": "https://source.unsplash.com/random/4057576",
-      "name": "Lee Jong-Suk",
+      "name": "Lee Jong-Suk ",
       "birth": 621734400000,
       "gender": "M",
-      "services": "musculação, crosfit",
+      "services": "musculação, crosfit, natação",
       "created_at": 1587062526011
     },
     {
@@ -17,6 +17,24 @@
       "gender": "M",
       "services": "musculação",
       "created_at": 1587062623702
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://www.google.com",
+      "name": "Nana",
+      "birth": -412214400000,
+      "gender": "F",
+      "services": "Cantora, Dançarina, Atriz",
+      "created_at": 1587575468841
+    },
+    {
+      "id": 5,
+      "avatar_url": "http://www.google.com",
+      "name": "Quizcom",
+      "birth": 1587513600000,
+      "gender": "M",
+      "services": "musculação, crosfit",
+      "created_at": 1587576362590
     }
   ]
 }
