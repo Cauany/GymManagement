@@ -4,7 +4,7 @@ const data = require('./data.json')
 const { age, date } = require('./utils')
 
 //index
-function(req, res){
+exports.index = function(req, res){
     return res.render("instructors/index", { instructors: data.instructors })
 }
 //show
