@@ -11,13 +11,14 @@
       "weight": "65",
       "height": "163"
     },
-    { "id": 2,
+    {
+      "id": 2,
       "avatar_url": "https://source.unsplash.com/random/4057576",
-      "name": "CAUANY SOUZA ",
+      "name": "Cauany Souza",
       "email": "caus161999@gmail.com",
-      "birth": 944611200000,
+      "birth": null,
       "gender": "F",
-      "blood": "A1",
+      "blood": "A+",
       "weight": "65",
       "height": "163"
     },
@@ -26,11 +27,22 @@
       "avatar_url": "https://source.unsplash.com/random/4057576",
       "name": "Cicera Maria de Souza",
       "email": "caus161999@gmail.com",
-      "birth": 1587600000000,
+      "birth": null,
       "gender": "F",
-      "blood": "A7",
+      "blood": "B+",
       "weight": "74",
       "height": "155"
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fcubetreeboys%2Fstatus%2F1152520190363521024&psig=AOvVaw1ykWfLV9Ev0jVdrz2f9Rmn&ust=1587147284748000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDo5cvG7egCFQAAAAAdAAAAABAN",
+      "name": "Baby",
+      "email": "baby@gmai.com",
+      "birth": null,
+      "gender": "F",
+      "blood": "AB-",
+      "weight": "45",
+      "height": "160"
     }
   ],
   "instructors": [

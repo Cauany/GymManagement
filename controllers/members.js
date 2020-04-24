@@ -22,7 +22,7 @@ exports.show = function(req, res){
 
     const member = {
         ...foundMember,
-        birth: Date(foundMember.birth),
+        age: age(foundMember.birth),
     }
 
     return res.render("members/show", { member })
@@ -82,7 +82,7 @@ exports.edit = function(req, res){
 
      const member = {
          ...foundMember,
-         birth: date(foundMember.birth)
+         birth: date(foundMember.birth).iso
      }
     
     return res.render('members/edit', { member })
