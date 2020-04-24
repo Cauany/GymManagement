@@ -8,20 +8,25 @@
         <thead>
             <tr>
                 <th>Membros</th>
-                <th>Atendimento</th>
+                <th>Email</th>
+                <th>Peso</th>
+                <th>Altura</th>
                 <th>Ação</th>
+                
             </tr>
         </thead>
    
         <tbody>
-        {% for member in members %}
+        {% for members in member %}
             <tr>
                 <td>
-                    <span style="background-image: url({{member.avatar_url}})"> </span>
-                    {{ member.name }}
+                    <span style="background-image: url({{members.avatar_url}})"> </span>
+                    {{ members.name }}
                 </td>
-                <td>{{ member.services }}</td>
-                <td><a href="/members/{{member.id}}">Ver</a></td>
+                <td>{{ members.email }}</td>
+                <td>{{ members.weight }}Kg</td>
+                <td>{{ members.height }}cm</td>
+                <td><a href="/members/{{members.id}}">Ver</a></td>
             </tr>
         {% endfor %}
         </tbody>

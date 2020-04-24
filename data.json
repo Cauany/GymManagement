@@ -43,6 +43,17 @@
       "blood": "AB-",
       "weight": "45",
       "height": "160"
+    },
+    {
+      "id": 5,
+      "avatar_url": "http://www.google.com",
+      "name": "Lee Suk",
+      "email": "leesuk@gmail.com",
+      "birth": 609033600000,
+      "gender": "M",
+      "blood": "B-",
+      "weight": "120",
+      "height": "186"
     }
   ],
   "instructors": [
