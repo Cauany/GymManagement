@@ -24,6 +24,8 @@ module.exports = {
         //dd
         const day = `0${date.getUTCDate()}`.slice(-2)
 
+        const hour = date.getHours
+
         return {
             day,
             month,
